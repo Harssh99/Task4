@@ -1,0 +1,18 @@
+import Card from "./Components/Card/Card";
+import "./App.css";
+
+
+function App() {
+  return (
+    <div className="App">
+      <Card />
+<<<<<<< HEAD
+      <circleBar />
+=======
+     
+>>>>>>> ffb780f (upadated)
+    </div>
+  );
+}
+
+export default App;
