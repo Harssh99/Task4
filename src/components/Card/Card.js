@@ -7,7 +7,8 @@ import WatchLaterIcon from "@material-ui/icons/WatchLater";
 
 import "./Card.css";
 import { Button } from "@material-ui/core";
-import circleBar from "../circleBar/circleBar";
+import CircleBar from "../CircleBar/CircleBar";
+
 
 function Card() {
   return (
@@ -69,8 +70,9 @@ function Card() {
 
       {/* 50marks */}
       <div>
-        <circleBar />
+        <CircleBar />
       </div>
+      
     </div>
   );
 }

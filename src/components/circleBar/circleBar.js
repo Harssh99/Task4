@@ -4,11 +4,11 @@ import { CircularProgressbar } from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
 import ReactStars from "react-rating-stars-component";
 
-import "./circleBar.css";
+import "./CircleBar.css";
 
 const percentage = 90;
 
-function circleBar() {
+function CircleBar() {
   const ratingChanged = (newRating) => {
     console.log(newRating);
   };
@@ -56,4 +56,4 @@ function circleBar() {
   );
 }
 
-export default circleBar;
+export default CircleBar;
